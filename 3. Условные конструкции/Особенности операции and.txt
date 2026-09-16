@@ -1,0 +1,11 @@
+arr = []
+size = 10
+i = 22
+
+// ERROR: Index out of range
+if (arr[i] % 2 == 0 and i < size) {}
+
+// OK
+if (i < size and arr[i] % 2 == 0) {}
+
+Если первое условие ложно, то второе не проверяется
