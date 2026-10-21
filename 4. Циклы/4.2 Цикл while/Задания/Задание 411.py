@@ -6,5 +6,5 @@ while (n := int(input())) != 0:
         m = n
         count = 1
     elif m == n:
-        count+=1
+        count += 1
 print(count)

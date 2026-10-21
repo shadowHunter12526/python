@@ -2,41 +2,41 @@ n = int(input())
 
 match n // 100:
     case 1:
-        print(f"сто", end="")
+        print("сто", end="")
     case 2:
-        print(f"двести", end="")
+        print("двести", end="")
     case 3:
-        print(f"триста", end="")
+        print("триста", end="")
     case 4:
-        print(f"четыреста", end="")
+        print("четыреста", end="")
     case 5:
-        print(f"пятьсот", end="")
+        print("пятьсот", end="")
     case 6:
-        print(f"шестьсот", end="")
+        print("шестьсот", end="")
     case 7:
-        print(f"семьсот", end="")
+        print("семьсот", end="")
     case 8:
-        print(f"восемьсот", end="")
+        print("восемьсот", end="")
     case 9:
-        print(f"девятьсот", end="")
+        print("девятьсот", end="")
 if n // 10 % 10 != 1:
     match n // 10 % 10:
         case 2:
-            print(f" двадцать", end="")
+            print(" двадцать", end="")
         case 3:
-            print(f" тридцать", end="")
+            print(" тридцать", end="")
         case 4:
-            print(f" сорок", end="")
+            print(" сорок", end="")
         case 5:
-            print(f" пятьдесят", end="")
+            print(" пятьдесят", end="")
         case 6:
-            print("f шестьдесят", end="")
+            print(" шестьдесят", end="")
         case 7:
-            print(f" семьдесят", end="")
+            print(" семьдесят", end="")
         case 8:
             print(" восемьдесят", end="")
         case 9:
-            print(f" девяносто", end="")
+            print(" девяносто", end="")
     match n % 10:
         case 1:
             print(" один")

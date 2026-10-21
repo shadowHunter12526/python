@@ -1,12 +1,12 @@
 equal = 0
 cn = 0
-l = 1
+length = 1
 while (n := int(input())) != 0:
     if cn == n:
-        l+=1
+        length += 1
     else:
         cn = n
-        l = 1
-    if equal < l:
-        equal = l
+        length = 1
+    if equal < length:
+        equal = length
 print(equal)
