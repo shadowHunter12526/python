@@ -7,11 +7,11 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-num = int(input("Кол-во простых чисел: "))
+num = int(input())
 a = 2
 count = 0
-while count < num:
+while count != num:
     if is_prime(a):
-        print(a)
+        print(a, end = ' ')
         count += 1
     a += 1
